@@ -55,7 +55,7 @@
 <body>
     <div class="main" >
         <div class="upper">
-            <h1 id="key">Press any keyboard key</h1>
+            <h1 id="key">Press Any Key</h1>
         </div>
         <div class="lower">
             <div class="lowerdiv">
@@ -74,7 +74,7 @@
         document.addEventListener("keypress",(event)=>{
             console.log(event);
             dis.style.display="flex"
-            temp.innerHTML=`you press <div class="name" > ${event.key}</div>`
+            temp.innerHTML=`You pressed <div class="name" > ${event.key}</div>`
            
             temp2.innerText=`${event.keyCode}`
         })
